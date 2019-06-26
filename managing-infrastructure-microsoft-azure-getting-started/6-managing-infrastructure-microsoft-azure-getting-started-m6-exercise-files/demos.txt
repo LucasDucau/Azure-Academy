@@ -1,0 +1,64 @@
+Module 6: Networking
+
+Microsoft Azure
+https://azure.microsoft.com/en-us/
+
+Azure Documentation
+https://docs.microsoft.com/en-us/azure/
+
+Azure Pricing Calculator
+https://azure.microsoft.com/en-us/pricing/calculator/
+
+Pluralsight: Implementing and Securing Windows Server 2016 Core Networking 
+https://www.pluralsight.com/courses/windows-server-2016-core-networking
+
+Pluralsight: Deploy Azure Virtual Networks, VPNs, and Gateways 
+https://www.pluralsight.com/courses/manage-azure-virtual-networks-vpn-gateway
+
+Pluralsight: CompTIA Network+ Learning Path
+https://www.pluralsight.com/blog/career/learning-path-comptia-network-n10-006
+
+CompTIA Network+ Certification
+https://certification.comptia.org/certifications/network
+
+Book: Microsoft Azure Security Infrastructure (Microsoft Press)
+https://www.microsoftpressstore.com/store/microsoft-azure-security-infrastructure-9781509303571
+
+Azure and IPv6
+https://azure.microsoft.com/en-us/updates/ipv6-for-azure-vms/
+
+IP Addresses in Azure
+https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-ip-addresses-overview-arm
+
+Azure IP Address Pricing
+https://azure.microsoft.com/en-us/pricing/details/ip-addresses/
+
+Azure Datacenter IP Ranges
+https://www.microsoft.com/en-us/download/details.aspx?id=41653
+
+Azure DNS Service
+https://azure.microsoft.com/en-us/services/dns/
+
+RFC 1918 Private IP Addresses
+https://tools.ietf.org/html/rfc1918
+
+Azure VPN Gateway
+https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways
+
+ExpressRoute
+https://azure.microsoft.com/en-us/services/expressroute/
+
+Azure Site-to-Site VPN
+https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-site-to-site-create
+
+Azure Point-to-Site VPN
+https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-point-to-site-create
+
+About VPN Devices for S2S VPN Gateway Connections
+https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpn-devices
+
+Let's Configure Azure S2S VPN with RRAS in ARM!
+https://blogs.technet.microsoft.com/jletsch/2016/03/15/lets-configure-azure-site-to-site-vpn-with-rras-in-azure-resource-manager/
+
+Azure VPN Config Samples at GitHub
+https://github.com/Azure/Azure-vpn-config-samples

@@ -1,0 +1,63 @@
+Module 8: Monitoring
+
+Microsoft Azure
+https://azure.microsoft.com/en-us/
+
+Azure Documentation
+https://docs.microsoft.com/en-us/azure/
+
+Azure Pricing Calculator
+https://azure.microsoft.com/en-us/pricing/calculator/
+
+Pluralsight: Windows Performance Monitoring Fundamentals   
+https://www.pluralsight.com/courses/windows-performance-monitoring-fundamentals
+
+Pluralsight: Web API Design
+https://www.pluralsight.com/courses/web-api-design
+
+Book: Windows Internals, Vols I and II (Microsoft Press)
+https://www.microsoftpressstore.com/store/windows-internals-part-1-system-architecture-processes-9780735684188
+https://www.microsoftpressstore.com/store/windows-internals-part-2-9780735665873
+
+Azure Event Hub
+https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-what-is-event-hubs
+
+Azure Diagnostics
+https://docs.microsoft.com/en-us/azure/azure-diagnostics
+
+Azure Monitoring and Diagnostics Guidance
+https://docs.microsoft.com/en-us/azure/best-practices-monitoring
+
+OMS Log Analytics
+https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-overview
+https://azure.microsoft.com/en-us/pricing/details/log-analytics/
+
+OMS Pricing
+https://www.microsoft.com/en-us/cloud-platform/operations-management-suite-pricing
+
+Azure Automation
+https://docs.microsoft.com/en-us/azure/automation/automation-intro
+
+OMS Log Search Syntax Reference
+https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-log-searches
+
+Azure Boot Diagnostics
+https://azure.microsoft.com/en-us/blog/boot-diagnostics-for-virtual-machines-v2/
+
+Azure Storage Explorer
+http://storageexplorer.com/
+
+Visual Studio Cloud Explorer
+https://marketplace.visualstudio.com/items?itemName=MicrosoftCloudExplorer.CloudExplorerforVisualStudio2015
+
+Webhooks and Azure Alerting
+https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/insights-webhooks-alerts
+
+Twilio API
+https://docs.microsoft.com/en-us/azure/twilio-dotnet-how-to-use-for-voice-sms
+
+Alerting in Azure
+https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/insights-alerts-portal
+
+PagerDuty/Azure Integration
+https://www.pagerduty.com/docs/guides/azure-integration-guide/

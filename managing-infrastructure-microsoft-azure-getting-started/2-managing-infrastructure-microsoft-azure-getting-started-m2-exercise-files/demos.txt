@@ -1,0 +1,73 @@
+Module 2: Virtual Machines
+
+Microsoft Azure
+https://azure.microsoft.com/en-us/
+
+Azure Documentation
+https://docs.microsoft.com/en-us/azure/
+
+Azure Pricing Calculator
+https://azure.microsoft.com/en-us/pricing/calculator/
+
+Pluralsight: Deploying and Managing Azure IaaS Virtual Machines
+https://www.pluralsight.com/courses/azure-iaas-virtual-machines-deploying-managing
+
+Pluralsight: Automating Deployment and Scale of Azure IaaS Solutions
+https://www.pluralsight.com/courses/azure-iaas-solutions-automating-deployment-scale
+
+Book: Fundamentals of Azure (Microsoft Press)
+https://blogs.msdn.microsoft.com/microsoft_press/2016/09/01/free-ebook-microsoft-azure-essentials-fundamentals-of-azure-second-edition/
+
+White Paper - RFC 4253 (SSH)
+https://www.ietf.org/rfc/rfc4253.txt
+
+Azure Windows Virtual Machine Pricing
+https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/
+
+Azure Linux Virtual Machine Pricing
+https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/
+
+Sizes for Virtual Machines in Azure
+https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-sizes
+
+Azure VM Licensing FAQ
+https://azure.microsoft.com/en-us/pricing/licensing-faq/
+
+Azure Resource Naming Conventions
+https://docs.microsoft.com/en-us/azure/guidance/guidance-naming-conventions
+
+Azure VM Marketplace
+https://azure.microsoft.com/en-us/marketplace/virtual-machines/
+
+AzureRM.Compute PowerShell Module
+https://docs.microsoft.com/en-us/powershell/resourcemanager/azurerm.compute/v1.3.4/azurerm.compute
+
+Create VM using PowerShell
+https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-ps-create
+
+Install Azure CLI v2.0
+https://docs.microsoft.com/en-us/cli/azure/install-az-cli2
+
+Create VM Using Azure CLI v2.0
+https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-quick-create-cli
+
+Install Bash Environment in Windows 10
+http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/
+
+Git Tools for Windows
+https://git-scm.com/
+
+PowerShell Remoting - TrustedHosts List
+http://winintro.ru/windowspowershell2corehelp.en/html/f23b65e2-c608-485d-95f5-a8c20e00f1fc.htm
+
+Use SSH Keys with Azure Linux VMs
+https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-mac-create-ssh-keys
+
+Remote Desktop to an Azure Linux VM
+https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-classic-remote-desktop
+
+PuTTY
+http://www.putty.org/
+
+PowerShell OpenSSH Project
+https://github.com/PowerShell/Win32-OpenSSH

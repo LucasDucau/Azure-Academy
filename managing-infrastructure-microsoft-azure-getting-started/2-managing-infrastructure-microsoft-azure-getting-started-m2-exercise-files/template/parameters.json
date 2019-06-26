@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "southcentralus"
+        },
+        "virtualMachineName": {
+            "value": "vm-web01"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D1_v2"
+        },
+        "adminUsername": {
+            "value": "tim"
+        },
+        "storageAccountName": {
+            "value": "azuretrainingstorage2"
+        },
+        "virtualNetworkName": {
+            "value": "azure-training-vnet"
+        },
+        "networkInterfaceName": {
+            "value": "vm-web01650"
+        },
+        "networkSecurityGroupName": {
+            "value": "windows-linux"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "storageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "subnetName": {
+            "value": "web-tier"
+        },
+        "publicIpAddressName": {
+            "value": "vm-web01-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        }
+    }
+}

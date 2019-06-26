@@ -1,0 +1,59 @@
+Module 9: Troubleshooting and Support
+
+Microsoft Azure
+https://azure.microsoft.com/en-us/
+
+Azure Documentation
+https://docs.microsoft.com/en-us/azure/
+
+Azure Pricing Calculator
+https://azure.microsoft.com/en-us/pricing/calculator/
+
+Pluralsight: Building a Global App with Azure PaaS 
+https://www.pluralsight.com/courses/azure-paas-building-global-app
+
+Pluralsight: Managing Azure IaaS with PowerShell 
+https://www.pluralsight.com/courses/managing-azure-iaas-with-powershell
+
+VM Access Extension
+https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-classic-agents-and-extensions
+https://github.com/Azure/azure-linux-extensions/tree/master/VMAccess
+
+Resetting Admin Credentials and RDP Sessions
+https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-reset-rdp
+
+Redeploy a VM in Azure
+https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-redeploy-to-new-node
+
+Deploy a VM Using an Existing VHD
+https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-upload-image
+
+Azure Resource Health
+https://docs.microsoft.com/en-us/azure/resource-health/resource-health-overview
+
+Azure Boot Diagnostics/Console Logs
+https://blogs.technet.microsoft.com/canitpro/2016/05/31/step-by-step-enable-diagnostics-on-an-azure-virtual-machine/
+https://azure.microsoft.com/en-us/blog/boot-diagnostics-for-virtual-machines-v2/
+
+Azure Cloud Console
+https://azure.microsoft.com/en-us/blog/sneak-peek-a-new-azure-cloud-console/
+
+Azure Support Plans
+https://azure.microsoft.com/en-us/support/plans/
+
+Submit a Support Request
+https://docs.microsoft.com/en-us/azure/azure-supportability/how-to-create-azure-support-request
+
+Azure Advisor
+https://docs.microsoft.com/en-us/azure/advisor/advisor-overview
+
+Azure Advisor Pricing
+https://azure.microsoft.com/en-us/pricing/details/advisor/
+
+Azure Security Center
+https://docs.microsoft.com/en-us/azure/security-center/security-center-intro
+https://azure.microsoft.com/en-us/pricing/details/security-center/
+
+Powershell Training
+https://www.manning.com/books/learn-windows-powershell-in-a-month-of-lunches-third-edition
+https://www.pluralsight.com/courses/powershell-getting-started

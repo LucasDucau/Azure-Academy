@@ -1,0 +1,19 @@
+Module 11: Managed Disks
+
+Microsoft Azure
+https://azure.microsoft.com/en-us/
+
+Azure Documentation
+https://docs.microsoft.com/en-us/azure/
+
+Azure Pricing Calculator
+https://azure.microsoft.com/en-us/pricing/calculator/
+
+Pluralsight: Understanding and Using Azure Storage 
+https://www.pluralsight.com/courses/azure-storage-understanding-using
+
+Pluralsight: Storage for CompTIA Server+ 
+https://www.pluralsight.com/courses/storage-for-comptia-server-plus-sk0-004
+
+Book: Cloud Storage Forensics (Syngress)
+https://www.elsevier.com/books/cloud-storage-forensics/quick/978-0-12-419970-5

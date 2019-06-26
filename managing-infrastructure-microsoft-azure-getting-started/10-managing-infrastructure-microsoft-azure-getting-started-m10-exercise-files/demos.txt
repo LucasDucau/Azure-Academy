@@ -1,0 +1,45 @@
+Module 9: Troubleshooting and Support
+
+Microsoft Azure
+https://azure.microsoft.com/en-us/
+
+Azure Documentation
+https://docs.microsoft.com/en-us/azure/
+
+Azure Pricing Calculator
+https://azure.microsoft.com/en-us/pricing/calculator/
+
+Pluralsight: PMP - Project Cost Management
+https://www.pluralsight.com/courses/pmp-project-cost-management
+
+Pluralsight: Best Practices for Project Estimation
+https://www.pluralsight.com/courses/project-estimation-best-practices
+
+How to Buy Azure
+https://azure.microsoft.com/en-us/pricing/purchase-options/
+
+How Azure Pricing Works
+https://azure.microsoft.com/en-us/pricing/
+
+How Azure Spending Limits Work
+https://azure.microsoft.com/en-us/pricing/spending-limits/
+
+Azure Subscription and Account Guidelines
+https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-infrastructure-subscription-accounts-guidelines
+
+Set a Billing Alert
+https://docs.microsoft.com/en-us/azure/billing-set-up-alerts
+
+Azure Service Level Agreements (SLAs)
+https://azure.microsoft.com/en-us/support/legal/sla/
+https://azure.microsoft.com/en-us/support/legal/sla/summary/
+http://www.networkworld.com/article/2885818/cloud-computing/10-tips-of-what-to-watch-for-in-microsoft-and-other-cloud-slas.html
+
+Understanding Your Azure Bill
+https://docs.microsoft.com/en-us/azure/billing/billing-understand-your-bill
+
+Azure Support Plans
+https://azure.microsoft.com/en-us/support/plans/
+
+Azure Service Status
+https://azure.microsoft.com/en-us/status/

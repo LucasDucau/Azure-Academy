@@ -1,0 +1,74 @@
+Module 4: Inside the VM
+
+Microsoft Azure
+https://azure.microsoft.com/en-us/
+
+Azure Documentation
+https://docs.microsoft.com/en-us/azure/
+
+Azure Pricing Calculator
+https://azure.microsoft.com/en-us/pricing/calculator/
+
+Pluralsight: Windows PowerShell Desired State Configuration Fundamentals
+https://www.pluralsight.com/courses/powershell-desired-state-configuration-fundamentals
+
+Pluralsight: Play by Play - Elastic Scale and Consistency with Azure Automation DSC
+https://www.pluralsight.com/courses/play-by-play-azure-automation-dsc-elastic-scale-consistency
+
+Book: Using Chef with Microsoft Azure (Apress)
+http://www.apress.com/us/book/9781484214770
+
+Jump Box
+http://windowsitpro.com/azure/using-jump-box-azure-rdp-access
+
+Network Security Groups
+https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-nsg
+
+Availability Sets
+https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-infrastructure-availability-sets-guidelines
+https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-manage-availability
+
+Single-Instance SLA for Premium Storage
+https://buildazure.com/2016/11/24/single-instance-vms-now-with-99-9-sla/
+
+Load Balancers
+https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview
+
+Pets vs. Cattle Metaphor
+http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/
+
+Configuration Management Definition
+https://www.wikiwand.com/en/Configuration_management
+
+Chef and Azure
+https://www.chef.io/partners/azure/
+
+Puppet and Azure
+https://puppet.com/product/managed-technology/microsoft-windows-azure
+
+PowerShell Remote Administration
+https://msdn.microsoft.com/en-us/powershell/scripting/core-powershell/running-remote-commands#windows-powershell-remoting
+
+PowerShell JIT/JEA
+https://msdn.microsoft.com/en-us/library/dn896648.aspx
+
+RDP to Azure VMs
+https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-connect-logon?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json
+
+SSH to Azure VMs
+https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-mac-create-ssh-keys
+
+Azure Linux Agent
+https://github.com/Azure/WALinuxAgent
+
+Azure VM Extensions list
+http://armtg.azurewebsites.net/extension_list.html
+
+Azure Compute Cmdlets
+https://docs.microsoft.com/en-us/powershell/resourcemanager/azurerm.compute/v1.3.4/azurerm.compute?redirectedfrom=msdn
+
+Azure CLI v2.0 Reference
+https://docs.microsoft.com/en-us/cli/azure/install-az-cli2
+
+OMS
+https://www.microsoft.com/en-us/cloud-platform/operations-management-suite

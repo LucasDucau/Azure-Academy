@@ -1,0 +1,70 @@
+Module 3: Disks and Storage
+
+Microsoft Azure
+https://azure.microsoft.com/en-us/
+
+Azure Documentation
+https://docs.microsoft.com/en-us/azure/
+
+Azure Pricing Calculator
+https://azure.microsoft.com/en-us/pricing/calculator/
+
+Pluralsight: Understanding and Using Azure Storage
+https://www.pluralsight.com/courses/azure-storage-understanding-using
+
+Pluralsight: Windows Azure Storage In-Depth
+https://www.pluralsight.com/courses/windows-azure-storage-in-depth
+
+Book: Mastering Microsoft Azure Infrastructure Services (Sybex)
+http://www.wiley.com/WileyCDA/WileyTitle/productCd-111900327X.html
+
+Azure Storage
+https://azure.microsoft.com/en-us/services/storage/
+
+Understand Blob Types
+https://docs.microsoft.com/en-us/rest/api/storageservices/fileservices/understanding-block-blobs--append-blobs--and-page-blobs
+
+Azure Storage Replication
+https://docs.microsoft.com/en-us/azure/storage/storage-redundancy
+
+Azure Storage Pricing
+https://azure.microsoft.com/en-us/pricing/details/storage/blobs/
+
+New Blob Lease Features
+https://blogs.msdn.microsoft.com/windowsazurestorage/2012/06/12/new-blob-lease-features-infinite-leases-smaller-lease-times-and-more/
+
+Container permissions
+https://docs.microsoft.com/en-us/azure/storage/storage-manage-access-to-resources
+
+Azure Storage Explorer
+http://storageexplorer.com/
+
+Azure Storage Emulator
+https://docs.microsoft.com/en-us/azure/storage/storage-use-emulator
+
+Azure Storage Scalability and Performance Targets
+https://docs.microsoft.com/en-us/azure/storage/storage-scalability-targets
+
+Host Caching
+http://stackoverflow.com/questions/19370693/what-is-the-difference-in-the-host-cache-preference-settings-when-adding-a-dis
+
+Custom DNS Domain for Storage Account Blob Endpoints
+https://docs.microsoft.com/en-us/azure/storage/storage-custom-domain-name
+
+Linux VM Agent User Guide
+https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-agent-user-guide
+
+Generalizing Azure VMs
+https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-generalize-vhd
+
+OS Image Capture
+https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-capture-image
+
+AzureRM.Storage PowerShell Module
+https://docs.microsoft.com/en-us/powershell/resourcemanager/azurerm.storage/v1.2.0/azurerm.storage?redirectedfrom=msdn
+
+AzCopy Tool
+https://docs.microsoft.com/en-us/azure/storage/storage-use-azcopy
+
+Azure Subscription and Service Limits
+https://docs.microsoft.com/en-us/azure/azure-subscription-service-limits

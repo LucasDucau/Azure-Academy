@@ -1,0 +1,69 @@
+Module 7: Security
+
+Microsoft Azure
+https://azure.microsoft.com/en-us/
+
+Azure Documentation
+https://docs.microsoft.com/en-us/azure/
+
+Azure Pricing Calculator
+https://azure.microsoft.com/en-us/pricing/calculator/
+
+Pluralsight: Play by Play - Azure Security with Mark Russinovich
+https://www.pluralsight.com/courses/play-by-play-azure-security-mark-russinovich
+
+Pluralsight: Creating a DMZ in Azure
+https://www.pluralsight.com/courses/azure-creating-dmz
+
+Book: Microsoft Azure Security (Packt)
+https://www.packtpub.com/application-development/microsoft-azure-security
+
+Azure Security Best Practices
+https://docs.microsoft.com/en-us/azure/security/azure-security-network-security-best-practices
+https://docs.microsoft.com/en-us/azure/security/security-best-practices-and-patterns
+
+Microsoft Trust Center
+https://www.microsoft.com/en-us/trustcenter
+
+Azure Penetration Test Policy
+https://security-forms.azure.com/penetration-testing/terms
+
+Azure Active Directory
+https://docs.microsoft.com/en-us/azure/active-directory/active-directory-whatis
+
+Azure Role-Based Access Control (RBAC)
+https://docs.microsoft.com/en-us/azure/active-directory/role-based-access-control-configure
+https://docs.microsoft.com/en-us/azure/active-directory/role-based-access-control-what-is
+
+RBAC with PowerShell
+https://docs.microsoft.com/en-us/azure/active-directory/role-based-access-control-manage-access-powershell
+
+RBAC in Azure CLI 
+https://docs.microsoft.com/en-us/azure/active-directory/role-based-access-control-manage-access-azure-cli
+
+Activity Log
+https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-overview-activity-logs
+
+Stream Activity Log to Event Hub
+https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-stream-activity-logs-event-hubs
+
+OMS Log Analytics
+https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-overview
+
+"Dogfooding"
+https://www.wikiwand.com/en/Eating_your_own_dog_food
+
+Azure Security Center
+https://docs.microsoft.com/en-us/azure/security-center/security-center-intro
+
+Security Center Pricing
+https://azure.microsoft.com/en-us/pricing/details/security-center/
+
+Microsoft Cybersecurity Team
+https://www.microsoft.com/en-us/microsoftservices/campaigns/cybersecurity-protection.aspx
+
+PowerBI
+https://powerbi.microsoft.com/en-us/documentation/powerbi-azure-and-power-bi/
+
+Azure Disk Encryption
+https://docs.microsoft.com/en-us/azure/security/azure-security-disk-encryption

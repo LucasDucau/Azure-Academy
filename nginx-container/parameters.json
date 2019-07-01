@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "containerName": {
+            "value": "lucasducau-wordpressqqqq"
+        },
+        "location": {
+            "value": "eastus"
+        },
+        "imageType": {
+            "value": "Public"
+        },
+        "imageName": {
+            "value": "nginx:1.17"
+        },
+        "osType": {
+            "value": "Linux"
+        },
+        "numberCpuCores": {
+            "value": "1"
+        },
+        "memory": {
+            "value": "1.5"
+        },
+        "restartPolicy": {
+            "value": "OnFailure"
+        },
+        "ipAddressType": {
+            "value": "Public"
+        },
+        "ports": {
+            "value": [
+                {
+                    "port": "80",
+                    "protocol": "TCP"
+                },
+                {
+                    "port": "22",
+                    "protocol": "TCP"
+                }
+            ]
+        }
+    }
+}

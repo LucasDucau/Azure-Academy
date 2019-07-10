@@ -1,0 +1,73 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_db4_name": {
+            "defaultValue": "db4",
+            "type": "String"
+        },
+        "disks_db4_OsDisk_1_df95731844a74abfb1b983b2cf435e90_externalid": {
+            "defaultValue": "/subscriptions/9e03d127-df36-49e8-9d72-867082d538aa/resourceGroups/LUCASDUCAU/providers/Microsoft.Compute/disks/db4_OsDisk_1_df95731844a74abfb1b983b2cf435e90",
+            "type": "String"
+        },
+        "networkInterfaces_db4163_externalid": {
+            "defaultValue": "/subscriptions/9e03d127-df36-49e8-9d72-867082d538aa/resourceGroups/lucasducau/providers/Microsoft.Network/networkInterfaces/db4163",
+            "type": "String"
+        }
+    },
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.Compute/virtualMachines",
+            "apiVersion": "2019-03-01",
+            "name": "[parameters('virtualMachines_db4_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "hardwareProfile": {
+                    "vmSize": "Standard_B1s"
+                },
+                "storageProfile": {
+                    "imageReference": {
+                        "publisher": "Canonical",
+                        "offer": "UbuntuServer",
+                        "sku": "18.04-LTS",
+                        "version": "latest"
+                    },
+                    "osDisk": {
+                        "osType": "Linux",
+                        "name": "[concat(parameters('virtualMachines_db4_name'), '_OsDisk_1_df95731844a74abfb1b983b2cf435e90')]",
+                        "createOption": "FromImage",
+                        "caching": "ReadWrite",
+                        "managedDisk": {
+                            "id": "[parameters('disks_db4_OsDisk_1_df95731844a74abfb1b983b2cf435e90_externalid')]"
+                        }
+                    },
+                    "dataDisks": []
+                },
+                "osProfile": {
+                    "computerName": "[parameters('virtualMachines_db4_name')]",
+                    "adminUsername": "lucasducau",
+                    "linuxConfiguration": {
+                        "disablePasswordAuthentication": false,
+                        "provisionVMAgent": true
+                    },
+                    "secrets": [],
+                    "allowExtensionOperations": true
+                },
+                "networkProfile": {
+                    "networkInterfaces": [
+                        {
+                            "id": "[parameters('networkInterfaces_db4163_externalid')]"
+                        }
+                    ]
+                },
+                "diagnosticsProfile": {
+                    "bootDiagnostics": {
+                        "enabled": true,
+                        "storageUri": "https://wordpressdb.blob.core.windows.net/"
+                    }
+                }
+            }
+        }
+    ]
+}

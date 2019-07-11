@@ -1,0 +1,2 @@
+az webapp log tail --name <app_name> --resource-group myResourceGroup
+# See console logs of the deployed application

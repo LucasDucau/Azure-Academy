@@ -1,6 +1,98 @@
 az webapp log tail --name <app_name> --resource-group myResourceGroup
 # See console logs of the deployed application
 
+Resource Providers: 
+
 Get-AzureRmResourceProvider | `
   Select-Object ProviderNamespace, ResourceTypes | `
   Sort-Object ProviderNamespace
+
+# Lists all the providers available on your subscription
+
+Resource Types:
+
+Get-AzureRmResourceProvider -ProviderNamespace Microsoft.Compute | `
+  Select-Object ResourceTypes, Locations | `
+  Sort-Object ResourceTypes
+
+# Lists all resource types which are available under a particular namespace, and in which datacenters
+
+https://management.azure.com/subscriptions/{subscription-id}/providers/{provider-name}?&api-version={api-version}
+
+# Interact with an specific API version directly
+
+((Get-AzureRmResourceProvider -ProviderNamespace Microsoft.Compute).ResourceTypes | Where-Object{$_.ResourceTypeName -eq 'virtualMachines'}).ApiVersions
+
+# Lists all available APIs that can handle 'virtualMachines'
+
+ARM Template Parameters:
+  "windowsServerEdition": {
+    "type": "string",
+    "defaultValue": "2016-Datacenter",
+    "allowedValues":[
+      "2012-Datacenter",
+      "etc",
+    ],
+    "metadata": {
+        "description": "useful data"
+    }
+  }
+
+ARM Template Parameters File:
+  {
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "vmNamePrefix": {
+        "value": "webVM"
+      },
+      "adminUsername": {
+        "value": "vmAdmin"
+      }
+    }
+  }
+
+ARM Template Variables:
+  "variables": {
+    "vnetID": "[resourceID('Microsoft.Network/virtualNetworks', parameters('virtualNetworkName'))]",
+    "subnetRef": "[concat(variables('vnetID'),'/subnets/', parameters('subnetName'))]"
+  }
+
+ARM Resource Templates:
+  "resources": [
+    {
+      "type": "Microsoft.Storage/storageAccounts",
+      "name": "[parameters('newStorageAccountName')]",
+      "apiVersion": "2015-01-01-preview",
+      "location": "[ResourceGroup().location]",
+      "properties": {
+        "accountType": "[parameters('storageAccountType')]"
+
+      }
+
+    }
+  ]
+
+ARM Template Multiple Resources:
+  
+  "parameters": {
+    "count": {
+      "type": "int",
+      "defaultValue": 4,
+
+    }
+  },
+  "resources": [
+    {
+      "name": "[concat('website','-',copyIndex())]",
+      "type": "Microsoft.Web/sites",
+      "location": "East US",
+      "apiVersion": "2015-08-01",
+      "copy": {
+        "name": "websitecopy",
+        "count": "[parameters('count')]"
+      }
+    }
+  ]
+
+  

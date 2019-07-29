@@ -93,10 +93,4 @@ ARM Template Multiple Resources:
         "count": "[parameters('count')]"
       }
     }
-<<<<<<< HEAD
   ]
-
-  
-=======
-  ]
->>>>>>> a17fe99dad78701ca12a6a93e59349501d1c2f0d

@@ -1,0 +1,1 @@
+GitHub Link: https://github.com/jamesbannan/pluralsight/tree/master/microsoft-azure-resource-manager-mastering

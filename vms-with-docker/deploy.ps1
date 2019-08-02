@@ -19,7 +19,7 @@ az group create -n $resourceGroup -l $location
 
 $outputqq = az group deployment show -g $resourceGroup -n $name --query properties.outputs.dnsName.value
 
-echo $outputqq
+echo $outputqq >> /home/lucas.ducau/Desktop/output.txt
 
 
 

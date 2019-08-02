@@ -1,16 +1,25 @@
+echo "asdasd" >> /home/lucas.ducau/Desktop/test.txt
+
+
 
 $resourceGroup = Read-Host "Resource Group name"
 $location = Read-Host "Location"
+$name = Read-Host "Deployment Name"
+
 
 
 az group create -n $resourceGroup -l $location
 
 
-az group deployment create --resource-group $resourceGroup --template-file template.json
+ az group deployment create `
+    --name $name `
+    --resource-group $resourceGroup `
+    --template-file template.json `
 
 
+$outputqq = az group deployment show -g $resourceGroup -n $name --query properties.outputs.dnsName.value
 
-
+echo $outputqq
 
 
 

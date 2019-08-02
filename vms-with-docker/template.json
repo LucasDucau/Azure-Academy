@@ -26,6 +26,12 @@
         "metadata": {
           "description": "Specifies the SSH rsa public key file as a string. Use \"ssh-keygen -t rsa -b 2048\" to generate your SSH key pairs."
         }
+      },
+      "dnsLabelPrefix": {
+        "type": "string",
+        "metadata": {
+          "description": "Unique DNS Name for the Public IP used to access the Virtual Machine."
+        }
       }
     },
     "variables": {
@@ -69,7 +75,10 @@
         "name": "[variables('publicIPAddressName')]",
         "location": "[parameters('location')]",
         "properties": {
-          "publicIPAllocationMethod": "Dynamic"
+          "publicIPAllocationMethod": "Dynamic",
+          "dnsSettings":{
+            "domainNameLabel": "[parameters('dnsLabelPrefix')]"
+          }
         },
         "sku": {
           "name": "Basic"
@@ -175,6 +184,10 @@
       "adminUsername": {
         "type": "string",
         "value": "[parameters('adminUsername')]"
+      },
+      "dnsName":{
+        "type": "string",
+        "value": "[reference(variables('publicIPAddressName')).dnsSettings.fqdn]"
       }
     }
   }

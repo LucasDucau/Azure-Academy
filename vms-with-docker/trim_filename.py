@@ -7,7 +7,6 @@ import sys
                 cat file.txt 
                 "Contents"
                 python3 trim_filename.py file.txt
-                cat file.txt
                 Contents
 
 """

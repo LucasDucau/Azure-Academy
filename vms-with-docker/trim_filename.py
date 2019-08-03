@@ -1,20 +1,27 @@
 import os
+import sys
 
 """
-        este archivo edita un archivo y deja solo lo que hay entre comillas 
-        (es horrible, ya se)
+        This program edits a file leaving out only the contents inbetween quotation marks
+        Usage example: 
+                cat file.txt 
+                "Contents"
+                python3 trim_filename.py file.txt
+                cat file.txt
+                Contents
+
 """
 
-def main(): 
+def main(filename): 
 
         try:
-                with open("dnsName.txt","r") as file:
+                with open(filename,"r") as file:
                         data = file.read()
                         data = data.split('"')
                         data = data[1]
                         file.close()
 
-                with open("dnsName.txt","w") as file3:
+                with open(filename,"w") as file3:
                         file3.write(data)
         except IndexError:
                 print("File contents cannot be parsed")
@@ -25,6 +32,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1])
 
 

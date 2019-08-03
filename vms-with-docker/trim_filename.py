@@ -19,10 +19,11 @@ def main(filename):
                         data = file.read()
                         data = data.split('"')
                         data = data[1]
-                        file.close()
+
 
                 with open(filename,"w") as file3:
                         file3.write(data)
+                        print(data)
         except IndexError:
                 print("File contents cannot be parsed")
         

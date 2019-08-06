@@ -16,7 +16,7 @@
 
     - name: "APT - install 'docker-ce'"
       apt:
-        name: "docker-ce"
+        name: "docker.io"
         update_cache: yes
 
     - name: "update docker-compose"

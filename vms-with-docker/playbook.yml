@@ -2,34 +2,31 @@
 - hosts: all
   become: yes
   tasks:
-    - ping: ~
-
-    - name: add Docker gpg key
 
     - name: "APT - Add Docker GPG key"
-        apt_key:
-          url: https://download.docker.com/linux/ubuntu/gpg
-          state: present
+      apt_key:
+        url: https://download.docker.com/linux/ubuntu/gpg
+        state: present
 
     - name: "APT - install misc packages"
-        apt:
+      apt:
         name: ['aptitude', 'apt-transport-https', 'ca-certificates', 'curl', 'software-properties-common', 'gnupg2', 'pass']
         update_cache: yes
 
 
     - name: "APT - install 'docker-ce'"
-        apt:
+      apt:
         name: "docker-ce"
         update_cache: yes
 
     - name: "update docker-compose"
-        apt:
+      apt:
         name: "docker-compose"
         update_cache: yes
         state: latest
 
-    - name: "allow the vagrant user to use docker"
-        shell:
+    - name: "allow the current user to use docker"
+      shell:
         usermod -aG docker $USER
-        become: yes
+      become: yes
 

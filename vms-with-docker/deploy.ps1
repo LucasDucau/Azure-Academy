@@ -1,5 +1,3 @@
-echo "asdasd" >> /home/lucas.ducau/Desktop/test.txt
-
 
 
 $resourceGroup = Read-Host "Resource Group name"

@@ -17,7 +17,7 @@ az group create -n $resourceGroup -l $location
 
 $outputqq = az group deployment show -g $resourceGroup -n $name --query properties.outputs.dnsName.value
 
-echo $outputqq > /home/lucas.ducau/Documents/Azure-Academy/vms-with-docker/dnsName
+echo $outputqq > /home/lucas/Azure-Academy/vms-with-docker/dnsName
 
 
 python3 ./trim_filename.py ./dnsName

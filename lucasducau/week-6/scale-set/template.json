@@ -1,0 +1,88 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "adminUsername": {
+          "type": "string"
+        },
+        "adminPassword": {
+          "type": "securestring"
+        }
+      },
+      "resources": [
+        {
+            "type": "Microsoft.Network/virtualNetworks",
+            "name": "myVnet",
+            "apiVersion": "2018-11-01",
+            "location": "[resourceGroup().location]",
+            "properties": {
+                "addressSpace": {
+                  "addressPrefixes": [
+                    "10.0.0.0/16"
+                  ]
+                },
+                "subnets": [
+                  {
+                    "name": "mySubnet",
+                    "properties": {
+                      "addressPrefix": "10.0.0.0/16"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+                "type": "Microsoft.Compute/virtualMachineScaleSets",
+                "name": "myScaleSet",
+                "apiVersion": "2019-03-01",
+                "location": "[resourceGroup().location]",
+                "dependsOn": [
+                  "Microsoft.Network/virtualNetworks/myVnet"
+                ],
+                "sku": {
+                    "name": "Standard_A1",
+                    "capacity": 2
+                  },
+                  "properties": {
+                    "upgradePolicy": {
+                      "mode": "Manual"
+                    },
+                    "virtualMachineProfile": {
+                        "storageProfile": {
+                          "imageReference": {
+                            "publisher": "Canonical",
+                            "offer": "UbuntuServer",
+                            "sku": "16.04-LTS",
+                            "version": "latest"
+                          }
+                        },
+                        "osProfile": {
+                            "computerNamePrefix": "vm",
+                            "adminUsername": "[parameters('adminUsername')]",
+                            "adminPassword": "[parameters('adminPassword')]"
+                          },
+                          "networkProfile": {
+                            "networkInterfaceConfigurations": [
+                              {
+                                "name": "myNic",
+                                "properties": {
+                                  "primary": "true",
+                                  "ipConfigurations": [
+                                    {
+                                      "name": "myIpConfig",
+                                      "properties": {
+                                        "subnet": {
+                                          "id": "[concat(resourceId('Microsoft.Network/virtualNetworks', 'myVnet'), '/subnets/mySubnet')]"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  ]
+               }

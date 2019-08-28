@@ -1,0 +1,15 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_db4_name": {
+            "value": null
+        },
+        "disks_db4_OsDisk_1_df95731844a74abfb1b983b2cf435e90_externalid": {
+            "value": null
+        },
+        "networkInterfaces_db4163_externalid": {
+            "value": null
+        }
+    }
+}

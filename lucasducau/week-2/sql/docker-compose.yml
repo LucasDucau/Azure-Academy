@@ -1,0 +1,16 @@
+version: '3.3'
+
+services:
+   db:
+     image: mysql:5.7
+     ports:
+             - "3306:3306"
+             - "33060:33060"
+     volumes:
+       - /home/lucasducau/db_data:/var/lib/mysql
+     restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: somewordpress
+       MYSQL_DATABASE: wordpress
+       MYSQL_USER: wordpress
+       MYSQL_PASSWORD: wordpress

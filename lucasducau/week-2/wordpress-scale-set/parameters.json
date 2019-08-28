@@ -1,0 +1,89 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "brazilsouth"
+        },
+        "vmssName": {
+            "value": "scalewordpress"
+        },
+        "vmSku": {
+            "value": "Standard_B1ls"
+        },
+        "adminUsername": {
+            "value": "lucasducau"
+        },
+        "instanceCount": {
+            "value": "2"
+        },
+        "image": {
+            "value": {
+                "sku": "18.04-LTS",
+                "publisher": "Canonical",
+                "version": "latest",
+                "offer": "UbuntuServer"
+            }
+        },
+        "singlePlacementGroup": {
+            "value": "true"
+        },
+        "pipName": {
+            "value": "scale"
+        },
+        "pipLabel": {
+            "value": "scalewordpress"
+        },
+        "skuType": {
+            "value": "Standard"
+        },
+        "ipAllocationMethod": {
+            "value": "Static"
+        },
+        "priority": {
+            "value": "Regular"
+        },
+        "subnetId": {
+            "value": "/subscriptions/9e03d127-df36-49e8-9d72-867082d538aa/resourceGroups/lucasducau/providers/Microsoft.Network/virtualNetworks/lucasducau-vnet/subnets/default"
+        },
+        "enableAcceleratedNetworking": {
+            "value": "false"
+        },
+        "publicIpAddressPerInstance": {
+            "value": "false"
+        },
+        "upgradeMode": {
+            "value": "Manual"
+        },
+        "autoscaleDefault": {
+            "value": "2"
+        },
+        "autoscaleMax": {
+            "value": "10"
+        },
+        "autoscaleMin": {
+            "value": "2"
+        },
+        "scaleInCPUPercentageThreshold": {
+            "value": "25"
+        },
+        "scaleInInterval": {
+            "value": "1"
+        },
+        "scaleOutCPUPercentageThreshold": {
+            "value": "75"
+        },
+        "scaleOutInterval": {
+            "value": "1"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "vnetName": {
+            "value": "lucasducau-vnet"
+        },
+        "subnetResourceGroup": {
+            "value": "lucasducau"
+        }
+    }
+}

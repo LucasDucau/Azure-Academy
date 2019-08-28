@@ -14,12 +14,12 @@
         update_cache: yes
 
 
-    - name: "APT - install 'docker-ce'"
+    - name: "APT - install 'docker.io'"
       apt:
         name: "docker.io"
         update_cache: yes
 
-    - name: "update docker-compose"
+    - name: "install docker-compose"
       apt:
         name: "docker-compose"
         update_cache: yes
